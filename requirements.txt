@@ -1,0 +1,11 @@
+flask
+pandas
+scikit-learn
+numpy
+faker
+python-dotenv
+sentence-transformers>=2.2.0
+faiss-cpu
+amazon-paapi
+sentence-transformers
+requests

@@ -1,0 +1,61 @@
+
+
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="row">
+  <div class="col-lg-7">
+    <div class="card mb-3 shadow-sm">
+      <div class="row g-0">
+        <!-- Product Image -->
+        <div class="col-md-6">
+          <img src="{{ product.image_url or 'https://via.placeholder.com/400x400?text=No+Image' }}" 
+               class="img-fluid p-3 product-detail-img" 
+               alt="{{ product.name }}">
+        </div>
+
+        <!-- Product Info -->
+        <div class="col-md-6">
+          <div class="card-body">
+            <h3>{{ product.name }}</h3>
+            <div class="small text-muted">
+              {% if product.brand %}{{ product.brand }}{% else %}Unknown Brand{% endif %}
+              {% if product.category %} • {{ product.category }}{% endif %}
+            </div>
+
+            <div class="mt-2">
+              {% if product.price %}
+                <strong class="h4 text-success">{{ product.price }}</strong>
+              {% endif %}
+              {% if product.original_price %}
+                <span class="text-muted text-decoration-line-through ms-2">{{ product.original_price }}</span>
+              {% endif %}
+            </div>
+
+            {% if product.rating %}
+              <div class="mt-2 mb-3 small text-warning">
+                ⭐ {{ product.rating }} 
+                {% if product.reviews %} • <span class="text-muted">{{ product.reviews }} reviews</span>{% endif %}
+              </div>
+            {% endif %}
+
+            <p class="small">{{ product.description or 'No description available.' }}</p>
+
+            <div class="d-flex gap-2">
+              {% if product.id %}
+                <a href="https://www.amazon.in/dp/{{ product.id }}" target="_blank" class="btn btn-primary">
+                  Buy on Amazon
+                </a>
+              {% endif %}
+              <button class="btn btn-outline-secondary" onclick="toggleWishlist('{{ product.id }}', this)">
+                <i class="bi bi-heart"></i> Add to Wishlist
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

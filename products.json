@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "name": "Apple iPhone 14 (128GB) – Midnight",
+      "price": "$699",
+      "image_url": "https://m.media-amazon.com/images/I/61cwywLZR-L._AC_SX679_.jpg",
+      "rating": 4.5,
+      "reviews": "21,452",
+      "url": "https://amazon.com/dp/B0BN94J8YS"
+    },
+    {
+      "name": "HP 15.6\" Laptop (Intel i5, 16GB RAM, 512GB SSD)",
+      "price": "$549",
+      "image_url": "https://m.media-amazon.com/images/I/71HeHn0tR2L._AC_SX679_.jpg",
+      "rating": 4.3,
+      "reviews": "13,892",
+      "url": "https://amazon.com/dp/B0C7JXZKQL"
+    },
+    {
+      "name": "Sony WH-1000XM4 Noise Cancelling Headphones",
+      "price": "$248",
+      "image_url": "https://m.media-amazon.com/images/I/71o8Q5XJS5L._AC_SX679_.jpg",
+      "rating": 4.7,
+      "reviews": "90,325",
+      "url": "https://amazon.com/dp/B0863TXGM3"
+    },
+    {
+      "name": "Samsung Galaxy S23 Ultra 256GB Smartphone",
+      "price": "$1,199",
+      "image_url": "https://m.media-amazon.com/images/I/71Sa3dqTqzL._AC_SX679_.jpg",
+      "rating": 4.8,
+      "reviews": "55,214",
+      "url": "https://amazon.com/dp/B0BT95FNDM"
+    },
+    {
+      "name": "Apple MacBook Air M2 – 13.6-inch",
+      "price": "$1,049",
+      "image_url": "https://m.media-amazon.com/images/I/71TPda7cwUL._AC_SX679_.jpg",
+      "rating": 4.9,
+      "reviews": "33,201",
+      "url": "https://amazon.com/dp/B0B3C7C4V5"
+    },
+    {
+      "name": "Acer Nitro 5 Gaming Laptop (RTX 3050, 8GB RAM)",
+      "price": "$799",
+      "image_url": "https://m.media-amazon.com/images/I/71evs2WKJjS._AC_SX679_.jpg",
+      "rating": 4.4,
+      "reviews": "28,929",
+      "url": "https://amazon.com/dp/B09TGWQ9W6"
+    },
+    {
+      "name": "Logitech MX Master 3S –Wireless Performance Mouse",
+      "price": "$98",
+      "image_url": "https://m.media-amazon.com/images/I/61ni3t1ryQL._AC_SX679_.jpg",
+      "rating": 4.8,
+      "reviews": "65,478",
+      "url": "https://amazon.com/dp/B09HSTCYT3"
+    },
+    {
+      "name": "Noise ColorFit Pro 4 Smartwatch (Black)",
+      "price": "$49",
+      "image_url": "https://m.media-amazon.com/images/I/71p91YxYQ-L._AC_SX679_.jpg",
+      "rating": 4.3,
+      "reviews": "19,120",
+      "url": "https://amazon.com/dp/B09V43F7K2"
+    },
+    {
+      "name": "Apple AirPods Pro (2nd Generation)",
+      "price": "$249",
+      "image_url": "https://m.media-amazon.com/images/I/61SUj2aKoEL._AC_SX679_.jpg",
+      "rating": 4.8,
+      "reviews": "120,753",
+      "url": "https://amazon.com/dp/B0BDHWDR12"
+    },
+    {
+      "name": "ASUS TUF Gaming F15 Laptop",
+      "price": "$999",
+      "image_url": "https://m.media-amazon.com/images/I/81fc4+OX1PL._AC_SX679_.jpg",
+      "rating": 4.6,
+      "reviews": "49,602",
+      "url": "https://amazon.com/dp/B0BRTY2CVW"
+    },
+    {
+      "name": "Canon EOS Rebel T7 DSLR Camera Kit",
+      "price": "$429",
+      "image_url": "https://m.media-amazon.com/images/I/71EWRyqed-L._AC_SX679_.jpg",
+      "rating": 4.7,
+      "reviews": "32,987",
+      "url": "https://amazon.com/dp/B079Y45KTJ"
+    },
+    {
+      "name": "Dell 27-inch S2721HN Monitor",
+      "price": "$179",
+      "image_url": "https://m.media-amazon.com/images/I/81i5KGRS+1L._AC_SX679_.jpg",
+      "rating": 4.6,
+      "reviews": "22,401",
+      "url": "https://amazon.com/dp/B08FFNWCW9"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+.env
+/data/*
+test_api.py
+__pycache__/
+*.pyc
+.vscode/
+.DS_Store
+.idea/
+logs/
+coverage
+*.log
+*.sqlite3
+/venv/
+*.zip
+debug.py
+create_final_project_zip.py
+test_simple.py
