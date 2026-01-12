@@ -14,3 +14,5 @@ coverage
 debug.py
 create_final_project_zip.py
 test_simple.py
+
+# Ignore all files in the data directory except for README.md
