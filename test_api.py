@@ -13,6 +13,7 @@ def test_api():
         "page": "1",
         "country": "US"
     }
+    
 
     headers = {
         "X-RapidAPI-Key": RAPIDAPI_KEY,
